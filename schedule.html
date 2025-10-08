@@ -21,6 +21,12 @@
         word-break: normal;
         vertical-align: top; /* Ensure vertical alignment */
       }
+      .tg td:first-child, .tg th:first-child {
+        width: 180px; /* Set width for Time column */
+        min-width: 180px;
+        white-space: nowrap;
+        text-align: center !important; /* Center align Time column */
+      }
       .tg th {
         background-color: #34cdf9;
         font-weight: bold;
@@ -75,8 +81,10 @@
 
     <main id="content" class="main-content" role="main">
       <h1 id="call-for-papers">Program</h1>
-
-      <table class="tg" style="width: 140%; margin-left: -125px;">
+      <p style="font-size: 1.1em; margin-bottom: 1.5em;">
+        <strong>Location:</strong> Undergraduate Centre, Otakaari 1, 02150 Espoo
+      </p>
+      <table class="tg">
         <thead>
           <tr>
             <th class="tg-wt8g">Time</th>
@@ -97,8 +105,7 @@
             <td class="tg-cly1">Paper Presentation Session 1: Multimodal Sensing For Health</td>
           </tr>
           <tr>
-            <td class="tg-cly1">10:45 – 11:00</td>
-            <td class="tg-cly1">Coffee Break</td>
+            <td colspan="2" class="session-header">10:45–11:00 &nbsp; Coffee Break</td>
           </tr>
           <tr>
             <td class="tg-cly1">11:00 – 11:30</td>
@@ -112,63 +119,64 @@
             <td class="tg-0lax">12:30 – 14:00</td>
             <td class="tg-0lax">Lunch and Networking</td>
           </tr>
-           <tr>
+          <tr>
             <td class="tg-0lax">14:15 – 15:15</td>
             <td class="tg-0lax">Paper Presentation Session 2: Chatbots and LLMs for Health Monitoring</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="session-header" style="color: red;">15:05–15:10 &nbsp; Best Paper Award and Closing Remarks</td>
           </tr>
         </tbody>
       </table>
 
       <h2>Wellcomp Paper Session 1: Multimodal Sensing For Health</h2>
-<p class="session-info">
-  Each paper will be presented for a total of 8 minutes (5 minutes presentation + 2 minutes Q&amp;A)
-</p>
-<table class="tg" style="width: 140%; margin-left: -125px;">
-  <thead>
-    <tr>
-      <th class="tg-wt8g">Time</th>
-      <th class="tg-wt8g">Paper Title</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td class="tg-cly1">10:15 – 10:22</td><td class="tg-0lax">From Patient Burdens to User Agency: Designing for Real-Time Protection Support in Online Health Consultations</td></tr>
-    <tr><td class="tg-cly1">10:22 – 10:29</td><td class="tg-0lax">On Improving PPG-Based Sleep Staging: A Pilot Study</td></tr>
-    <tr><td class="tg-cly1">10:29 – 10:36</td><td class="tg-0lax">Machine Learning–Driven Forecasting of Glucose Drops in Exercise</td></tr>
-    <tr><td class="tg-cly1">10:36 – 10:43</td><td class="tg-0lax">From RPM to Reaction: Telemetry Signals as Proxies for Driver Mental Load</td></tr>
-    <tr>
-      <td colspan="2" class="session-header">10:45–11:00 &nbsp; Coffee Break</td>
-    </tr>
-    <tr><td class="tg-cly1">11:00 – 11:07</td><td class="tg-0lax">Behavioral Indicators of Loneliness: Predicting University Students’ Loneliness Scores from Smartphone Sensing Data</td></tr>
-    <tr><td class="tg-cly1">11:07 – 11:14</td><td class="tg-0lax">Privacy-Preserving Real-Time Human Activity Recognition Using On-Device Small Language Models</td></tr>
-    <tr><td class="tg-cly1">11:14 – 11:21</td><td class="tg-0lax">Multi-Modal Deep Learning for Myocardial Infarction Detection Using ECG Signals and Images</td></tr>
-    <tr><td class="tg-cly1">11:21 – 11:28</td><td class="tg-0lax">Towards Capturing the Therapeutic Effects of Music in Everyday Life: Building the Beats Dataset</td></tr>
-  </tbody>
-</table>
+      <p class="session-info">
+        Each paper will be presented for a total of 8 minutes (5 minutes presentation + 2 minutes Q&amp;A)
+      </p>
+      <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-wt8g">Time</th>
+            <th class="tg-wt8g">Paper Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="tg-cly1">10:15 – 10:22</td><td class="tg-0lax">From Patient Burdens to User Agency: Designing for Real-Time Protection Support in Online Health Consultations</td></tr>
+          <tr><td class="tg-cly1">10:22 – 10:29</td><td class="tg-0lax">On Improving PPG-Based Sleep Staging: A Pilot Study</td></tr>
+          <tr><td class="tg-cly1">10:29 – 10:36</td><td class="tg-0lax">Machine Learning–Driven Forecasting of Glucose Drops in Exercise</td></tr>
+          <tr><td class="tg-cly1">10:36 – 10:43</td><td class="tg-0lax">From RPM to Reaction: Telemetry Signals as Proxies for Driver Mental Load</td></tr>
+          <tr>
+            <td colspan="2" class="session-header">10:45–11:00 &nbsp; Coffee Break</td>
+          </tr>
+          <tr><td class="tg-cly1">11:00 – 11:07</td><td class="tg-0lax">Behavioral Indicators of Loneliness: Predicting University Students’ Loneliness Scores from Smartphone Sensing Data</td></tr>
+          <tr><td class="tg-cly1">11:07 – 11:14</td><td class="tg-0lax">Privacy-Preserving Real-Time Human Activity Recognition Using On-Device Small Language Models</td></tr>
+          <tr><td class="tg-cly1">11:14 – 11:21</td><td class="tg-0lax">Multi-Modal Deep Learning for Myocardial Infarction Detection Using ECG Signals and Images</td></tr>
+          <tr><td class="tg-cly1">11:21 – 11:28</td><td class="tg-0lax">Towards Capturing the Therapeutic Effects of Music in Everyday Life: Building the Beats Dataset</td></tr>
+          <tr style="visibility: hidden; height: 0;"><td></td><td></td></tr>
+        </tbody>
+      </table>
 
-<h2>Wellcomp Paper Session 2: Chatbots and LLMs for Health</h2>
-<p class="session-info">
-  Each paper will be presented for a total of 8 minutes (5 minutes presentation + 2 minutes Q&amp;A)
-</p>
-<table class="tg" style="width: 140%; margin-left: -125px;">
-  <thead>
-    <tr>
-      <th class="tg-wt8g">Time</th>
-      <th class="tg-wt8g">Paper Title</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td class="tg-cly1">14:15 – 14:22</td><td class="tg-0lax">Persona Drift for Adaptive Flow in Stage-Aware CBT Chatbots</td></tr>
-    <tr><td class="tg-cly1">14:22 – 14:29</td><td class="tg-0lax">GrowChat: Promoting Remote Informal Communication through Character Creation and Development for Team Well-Being</td></tr>
-    <tr><td class="tg-cly1">14:29 – 14:36</td><td class="tg-0lax">BioCanvas: Dynamic Health Visualization through Daily AI-Generated Image and Poem</td></tr>
-    <tr><td class="tg-cly1">14:36 – 14:43</td><td class="tg-0lax">Context-Aware Intelligent Chatbot Framework Leveraging Mobile Sensing</td></tr>
-    <tr><td class="tg-cly1">14:43– 14:50</td><td class="tg-0lax">CTG-Insight: A Multi-Agent Interpretable LLM Framework for Cardiotocography Analysis and Classification</td></tr>
-    <tr><td class="tg-cly1">14:50 – 14:57</td><td class="tg-0lax">POCKET-MIND: Personalized LLM-based Journaling to Support Emotional Awareness and Goal Pursuit</td></tr>
-    <tr><td class="tg-cly1">14:57 – 15:04</td><td class="tg-0lax">NursingLLM: A Retrieval-Augmented Health Chatbot for Supporting Nursing Home Residents</td></tr>
-  </tbody>
-  <tr>
-    <td colspan="2" class="session-header" style="color: red; font-weight: bold;">15:05–15:10 &nbsp; Best Paper Award and Closing Remarks</td>
-  </tr>
-</table>
+      <h2>Wellcomp Paper Session 2: Chatbots and LLMs for Health</h2>
+      <p class="session-info">
+        Each paper will be presented for a total of 8 minutes (5 minutes presentation + 2 minutes Q&amp;A)
+      </p>
+      <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-wt8g">Time</th>
+            <th class="tg-wt8g">Paper Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="tg-cly1">14:15 – 14:22</td><td class="tg-0lax">Persona Drift for Adaptive Flow in Stage-Aware CBT Chatbots</td></tr>
+          <tr><td class="tg-cly1">14:22 – 14:29</td><td class="tg-0lax">GrowChat: Promoting Remote Informal Communication through Character Creation and Development for Team Well-Being</td></tr>
+          <tr><td class="tg-cly1">14:29 – 14:36</td><td class="tg-0lax">BioCanvas: Dynamic Health Visualization through Daily AI-Generated Image and Poem</td></tr>
+          <tr><td class="tg-cly1">14:36 – 14:43</td><td class="tg-0lax">Context-Aware Intelligent Chatbot Framework Leveraging Mobile Sensing</td></tr>
+          <tr><td class="tg-cly1">14:43– 14:50</td><td class="tg-0lax">CTG-Insight: A Multi-Agent Interpretable LLM Framework for Cardiotocography Analysis and Classification</td></tr>
+          <tr><td class="tg-cly1">14:50 – 14:57</td><td class="tg-0lax">POCKET-MIND: Personalized LLM-based Journaling to Support Emotional Awareness and Goal Pursuit</td></tr>
+          <tr><td class="tg-cly1">14:57 – 15:04</td><td class="tg-0lax">NursingLLM: A Retrieval-Augmented Health Chatbot for Supporting Nursing Home Residents</td></tr>
+        </tbody>
+      </table>
 
     </main>
   </body>
